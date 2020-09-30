@@ -113,15 +113,15 @@ analytics:
 
 # Site Author
 author:
-  name             : "Woochan Kim"
+  name             : "GiveMeMandu"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "사람과 기계의 결합을 꿈꾸는 대학생. 현재 군 복무중." # Note: Markdown is allowed
-  location         : "Jeju, South Korea"
+  location         : "Jeju, Republic of Korea"
   email            : "woochankim0303@gmail.com"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-       url: "mailto:woochankim0303@gmail.com"
+      url: "mailto:woochankim0303@gmail.com"
     #- label: "Website"
     #  icon: "fas fa-fw fa-link"
     #  # url: "https://your-website.com"
@@ -133,7 +133,7 @@ author:
     #  # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github-square"
-       url: "https://github.com/GiveMeMandu"
+      url: "https://github.com/GiveMeMandu"
     #- label: "Instagram"
     #  icon: "fab fa-fw fa-instagram"
     #  # url: "https://instagram.com/"
@@ -149,7 +149,7 @@ footer:
     #  # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-       url: "https://github.com/GiveMeMandu"
+      url: "https://github.com/GiveMeMandu"
     #- label: "GitLab"
     #  icon: "fab fa-fw fa-gitlab"
     #  # url:
