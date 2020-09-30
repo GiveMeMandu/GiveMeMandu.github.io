@@ -5,6 +5,10 @@ install:
   # Install Jekyll and dependencies
   - bundle install
 
+before_script:
+  - git config --global user.email "lion0303@hanyang.ac.kr"
+  - git config --global user.name "GiveMeMandu"
+
 script:
   - bundle exec rake site:deploy --quiet
 branches:
@@ -22,5 +26,4 @@ rvm:
 
 env:
   global:
-    secure: "eSQnKvkA2dzkYChazXV5Vh6jGnMUpD8wnxgC9OY/9FIsBDGH31VtKUWcM42p5A4WZIm5TxqQs1+O+BB8qmjpFHTNO7CDG0As54Wl70zT3fjyb8JVMVDF92FZPJIyj8q7gzuAvPiWbnp1j3KfhSpTYHTMr2yoWnmSFaC7cPEaFK+tpryDJBX253eMXAbMCg0qFIsTlOtSHM8506bGCPbD4dzKK4VK2rI3PtfjMPARRGFhhhtNecfsR2tZHj8ZzbDiv+vs+0wAah8tL5Ak7fGGgeOwdJIx9dseVSauLwAkFoHWw4xDzujkUwSVxZ2YdjpiyTgEq9k2wx3XMFYmFxPt648gcPa0SLXEfVT4lrDR5mckEGlrOKsBCAToeZIPoZBn3SG6AJkgjDcpr8GS1vIssqHhXwnq5mRHI/d3uSTirsr77+NudgVTKN4ZRzgvj3qOyZGYBuXbLGhEeSGScta8OSJxwIKw89ru+L/Ge3PldB+AaFcMH5aGRo9L2HbDEE3FzmruW3QmgYaktBhtGnwm2uJ1kyB76oG4rF9pQ354KbeRHPeFLn/MR9gZhC9b1pHRdD7kaWKdYa/jLqOQP/8elqOtwHTaYC3uGljNRHSZehfDw97VFs579fvwDWX6bg45DB6eTrDgLsTJZKsfQvgvEQWTD/f1hL4PZH6Oyj0sqMY="
-    
+    secure: "yRT/eJT2E1pPtuQCx/xbWChT8I67nqnU7T0LkKbT+nflZ/LT7aIFPuPCsZURPu6aTaGOWQ+DL7Z1t0P1T3lMFnhG58wFOZsxCifM0l9j9yNR36DybYpLn/aNrs+n7h09Y8rXDGt619i7/wllpCRQeRdGh/RzKgXa6fv9SyqiEvvMjEC7w0s/FA22vElXueR3/N1QDsbDbqYEDjUEfJ5762flqFQvagprbPKT4bC9OHRPwNfuG5CJhmHlA0VGl51X70QI62mjDvaAiLAVI3rkpFYv7xMoVEMl388hDYEAP3uqq7TaOZHe/jB0X7vfJJy5GZvGSDzAaRxRCaRny9zqoKyiS3CRW8Qnzf0D6Cn7o+YYrM6B/qUzCCHGgTF83s51h76yPtgNOZ72O38pcyLhxE+xTebW/tBiIYGnii+huw5PhP4rM5mpZihQQrEa7XpD8Gi6Dpit92rPsBKCL+IlYN6kQSDCDWsEGvSsCz8BXymTX81ws72//RTLqUkHkF2Dokz/rSpi0+8HTYjLdMHn0HQu8eRR0jNX6Jye0ck8zNjwTNOP10I5Wyrbp2D2ZT1JJsksLQNOIIu8vAcIkb8FI0lCPcRkxXwWJIsQ2DuwbnH39uroxIcXvLBYWwCHWje2Gn3rOwwVIQ+aOIXrLd3VQFknTIPui8aiVIg/2Nm8pLk="
