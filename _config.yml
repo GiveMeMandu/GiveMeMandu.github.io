@@ -38,8 +38,8 @@ locale                   : "ko-KR"
 title                    : "맹호 - 만두를주세요"
 title_separator          : "-"
 subtitle                 : "2시간의 자유 ver 0.1" # site tagline that appears below site title in masthead
-name                     : "김우찬"
-description              : "공부 내용 및 근황 소개. 현재 군복무중."
+name                     : &name "GiveMeMandu"
+description              : &description "공부 내용 및 근황 소개. 현재 군복무중."
 url                      : "https://givememandu.github.io/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "GiveMeMandu/GiveMeMandu.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
@@ -51,7 +51,7 @@ words_per_minute         : 200
 comments:
   provider               : "disqus" # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
   disqus:
-    shortname            : "GiveMeMandu.github.io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
+    shortname            : "https-givememandu-github-io" # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
@@ -112,7 +112,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "GiveMeMandu"
+  name             : *name
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "사람과 기계의 결합을 꿈꾸는 대학생. 현재 군 복무중." # Note: Markdown is allowed
   location         : "Jeju, Republic of Korea"
@@ -217,6 +217,30 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# Collections
+collections:
+
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
 
 # Sass/SCSS
 sass:
@@ -283,25 +307,3 @@ compress_html:
   clippings: all
   ignore:
     envs: development
-
-
-# Defaults
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  #_pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
