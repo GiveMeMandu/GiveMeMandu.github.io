@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://givememandu.github.io//blogging/first-post/</loc>
-<lastmod>2020-09-29T13:11:30+09:00</lastmod>
+<loc>https://givememandu.github.io//blog/first-post/</loc>
+<lastmod>2020-10-01T13:11:30+09:00</lastmod>
 </url>
 <url>
 <loc>https://givememandu.github.io//about/</loc>
@@ -13,6 +13,12 @@
 </url>
 <url>
 <loc>https://givememandu.github.io//tags/</loc>
+</url>
+<url>
+<loc>https://givememandu.github.io//tags/blog/</loc>
+</url>
+<url>
+<loc>https://givememandu.github.io//categories/blog/</loc>
 </url>
 <url>
 <loc>https://givememandu.github.io//_pages/category-archive/</loc>

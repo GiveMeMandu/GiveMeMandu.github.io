@@ -1,1 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://givememandu.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://givememandu.github.io//" rel="alternate" type="text/html" /><updated>2020-10-01T22:34:55+09:00</updated><id>https://givememandu.github.io//</id><title type="html">맹호 - 만두를주세요</title><subtitle>공부 내용 및 근황 소개. 현재 군복무중.</subtitle><author><name>GiveMeMandu</name><email>woochankim0303@gmail.com</email></author><entry><title type="html">minimal mistakes 테마를 이용해 github.io 블로그 구축하기</title><link href="https://givememandu.github.io//blogging/first-post/" rel="alternate" type="text/html" title="minimal mistakes 테마를 이용해 github.io 블로그 구축하기" /><published>2020-09-29T00:00:00+09:00</published><updated>2020-09-29T13:11:30+09:00</updated><id>https://givememandu.github.io//blogging/first-post</id><content type="html" xml:base="https://givememandu.github.io//blogging/first-post/"></content><author><name>GiveMeMandu</name><email>woochankim0303@gmail.com</email></author><summary type="html"></summary></entry></feed>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.6.2">Jekyll</generator><link href="https://givememandu.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://givememandu.github.io//" rel="alternate" type="text/html" /><updated>2020-10-01T23:25:12+09:00</updated><id>https://givememandu.github.io//</id><title type="html">맹호 - 만두를주세요</title><subtitle>공부 내용 및 근황 소개. 현재 군복무중.</subtitle><author><name>GiveMeMandu</name><email>woochankim0303@gmail.com</email></author><entry><title type="html">minimal mistakes 테마를 이용해 github.io 블로그 구축하기</title><link href="https://givememandu.github.io//blog/first-post/" rel="alternate" type="text/html" title="minimal mistakes 테마를 이용해 github.io 블로그 구축하기" /><published>2020-09-29T00:00:00+09:00</published><updated>2020-10-01T13:11:30+09:00</updated><id>https://givememandu.github.io//blog/first-post</id><content type="html" xml:base="https://givememandu.github.io//blog/first-post/">&lt;p&gt;Jekyll 사용.&lt;/p&gt;
+
+&lt;p&gt;댓글은 Disqus&lt;/p&gt;
+
+&lt;p&gt;빌드는 Travis-CI&lt;/p&gt;
+
+&lt;p&gt;YFM에서 정의한 제목을 이중 괄호 구문으로 본문에 추가 가능.
+이 글의 제목은 minimal mistakes 테마를 이용해 github.io 블로그 구축하기이고
+마지막으로 수정된 시간은 2020-10-01 13:11:30 +0900이다.&lt;/p&gt;
+
+&lt;p&gt;푸쉬전 로컬에서 최종확인 때 쓰는 명령어는&lt;/p&gt;
+
+&lt;div class=&quot;language-ruby highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;c1&quot;&gt;#기본 디렉토리에서&lt;/span&gt;
+
+&lt;span class=&quot;n&quot;&gt;bundle&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;exec&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jekyll&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;serve&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name>GiveMeMandu</name><email>woochankim0303@gmail.com</email></author><category term="Blog" /><summary type="html">Jekyll 사용.</summary></entry></feed>
